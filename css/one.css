@@ -1,0 +1,49 @@
+
+/* //初始化 */
+.box{
+    z-index:10;
+    width:100%;
+    display: none;
+    height: 900px;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgb(224, 129, 129);
+}
+.box .clase{
+    color:#fff;
+    width: 80px;
+    height:80px;
+    font-size: 5rem;
+    position: absolute;
+    top:20px;
+    left:20px;
+    background: url(../img/clase.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.box .clase:hover{
+    background: url(../img/clase1.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.box1,.box2{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/* 动画调用 
+第一个的动画 */
+/* .four_one{
+    animation: myf_one 1.5s;
+}
+
+.four_one:nth-child(0){
+    transform: rotateX(-90deg);
+    background: url(../img/HTML.png) center;
+    background-size: 80% 80%;
+} */
